@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(palevioletred, darkslategrey );
+    margin: 0 auto;
+}
+
+.menu {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    border: 1px solid cadetblue;
+    background-color: darkslategrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.header {
+    background-color: cadetblue;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    background-color: cadetblue;
+    color: beige;
+}
+
+.coluna {
+    float: left;
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.coluna.maior {
+    width: 70%;
+}
+
+#quote {
+    width: 80%;
+    padding-left: 80px;
+    padding-top: 10px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.coluna.menor {
+    width: 30%;
+}
+
+.rolagem:after { 
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rodape {
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+.rodape li {
+    float: left;
+    display: block;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rodape li:hover {
+    background-color: palevioletred;
+}

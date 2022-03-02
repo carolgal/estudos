@@ -1,0 +1,50 @@
+body {
+    padding-top: 100px;
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(palevioletred, darkslategrey );
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=botao] {
+    text-align: center;
+    width: 100px;
+    background-color: darkslategrey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 120px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=botao]:hover {
+    background-color: palevioletred;
+}
+
+div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    background-color: cadetblue;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+}
